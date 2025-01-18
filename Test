@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Weekly News</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1em;
+            margin: 5px 0 0;
+            color: #555;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        .article {
+            flex: 1 1 calc(33.333% - 20px);
+            background: #fff;
+            margin: 10px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .article h2 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+
+        .article p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        .article a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .article a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 0.9em;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .article {
+                flex: 1 1 100%;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>School Weekly News</h1>
+        <p>Your trusted source for school updates</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">News</a>
+        <a href="#">Features</a>
+        <a href="#">Opinion</a>
+        <a href="#">Sports</a>
+    </nav>
+
+    <div class="content">
+        <div class="article">
+            <h2>Article 1 Title</h2>
+            <p>Preview of the article content goes here. It gives readers a quick idea of what the article is about.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="article">
+            <h2>Article 2 Title</h2>
+            <p>Preview of the article content goes here. It gives readers a quick idea of what the article is about.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="article">
+            <h2>Article 3 Title</h2>
+            <p>Preview of the article content goes here. It gives readers a quick idea of what the article is about.</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 School Weekly News. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
